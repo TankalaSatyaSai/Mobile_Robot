@@ -6,7 +6,6 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /TF1
         - /RobotModel1
       Splitter Ratio: 0.5
     Tree Height: 719
@@ -62,6 +61,8 @@ Visualization Manager:
           Value: true
         left_wheel:
           Value: true
+        odom:
+          Value: true
         right_wheel:
           Value: true
       Marker Scale: 1
@@ -70,19 +71,20 @@ Visualization Manager:
       Show Axes: true
       Show Names: false
       Tree:
-        base_link:
-          chassis:
-            caster_wheel:
+        odom:
+          base_link:
+            chassis:
+              caster_wheel:
+                {}
+            left_wheel:
               {}
-          left_wheel:
-            {}
-          right_wheel:
-            {}
+            right_wheel:
+              {}
       Update Interval: 0
       Value: true
     - Alpha: 1
       Class: rviz_default_plugins/RobotModel
-      Collision Enabled: true
+      Collision Enabled: false
       Description File: ""
       Description Source: Topic
       Description Topic:
@@ -129,11 +131,11 @@ Visualization Manager:
       TF Prefix: ""
       Update Interval: 0
       Value: true
-      Visual Enabled: false
+      Visual Enabled: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_link
+    Fixed Frame: odom
     Frame Rate: 30
   Name: root
   Tools:
@@ -176,7 +178,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 1.62396240234375
+      Distance: 6.489290714263916
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -191,10 +193,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.460397869348526
+      Pitch: 0.785398006439209
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.443568229675293
+      Yaw: 0.785398006439209
     Saved: ~
 Window Geometry:
   Displays:
