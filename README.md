@@ -30,7 +30,7 @@
   <!-- <a href="https://twitter.com/akshet9" target="_blank"><img src="https://img.shields.io/twitter/follow/akshet9?logo=x&style=for-the-badge" alt="akshet9" /></a> -->
   <!-- <a href="https://instagram.com/akshet.patel" target="_blank"><img src="https://img.shields.io/badge/Instagram-akshet.patel-orange?style=for-the-badge&logo=instagram" alt="akshet.patel" /></a> -->
   <!-- <a href="https://www.youtube.com/@akshetpatel" target="_blank"><img src="https://img.shields.io/badge/YouTube-@akshetpatel-red?style=for-the-badge&logo=youtube" alt="@akshetpatel" /></a> -->
-  <a href="https://www.linkedin.com/in/tankala-satya-sai-b12b22223/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-akshetpatel-blue?style=for-the-badge&logo=linkedin" alt="SatyaSai" /></a>
+  <a href="https://www.linkedin.com/in/tankala-satya-sai-b12b22223/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-satyasai-blue?style=for-the-badge&logo=linkedin" alt="SatyaSai" /></a>
 </p>
 
 <!-- <h3 align="left">Languages and Tools:</h3>
